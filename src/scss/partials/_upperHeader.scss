@@ -1,0 +1,16 @@
+#upper-header {
+    height: 40px;
+    background-color: $first-background-color;
+
+    p {
+        color: $first-font-color;
+        text-align: center;
+        font-size: 13px;
+        line-height: 40px;
+
+        span {
+            color: $second-font-color;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid #30488F;
+  color: #30488F;
+  padding: 8px 15px;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #30488F;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+
+#upper-header {
+  height: 40px;
+  background-color: #FFE7D2;
+}
+
+#upper-header p {
+  color: #58402c;
+  text-align: center;
+  font-size: 13px;
+  line-height: 40px;
+}
+
+#upper-header p span {
+  color: #30488F;
+  cursor: pointer;
+}
+
+#mid-header {
+  border-bottom: 1px solid #58402c;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#mid-header .left {
+  float: left;
+  width: 60%;
+}
+
+#mid-header .left img {
+  cursor: pointer;
+}
+
+#mid-header .right {
+  float: right;
+  width: 40%;
+}
+
+#mid-header .right #menu {
+  float: left;
+  font-size: 14px;
+  color: #58402c;
+  margin-left: 40px;
+}
+
+#mid-header .right #menu a {
+  margin-right: 35px;
+  font-weight: bold;
+}
+
+#mid-header .right #menu .button {
+  font-weight: bold;
+}
+
+#mid-header .right #menu .button:hover {
+  color: white;
+  background-color: #30488F;
+  cursor: pointer;
+}
+
+#jumbotron {
+  padding-top: 130px;
+}
+
+#jumbotron .jumbo.left,
+#jumbotron .jumbo.right {
+  float: left;
+  width: 50%;
+  color: #58402c;
+}
+
+#jumbotron .jumbo.left p {
+  font-size: 22px;
+  max-width: 80%;
+  word-spacing: 3px;
+}
+
+#jumbotron .jumbo.left button {
+  background-color: #30488F;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#jumbotron .jumbo.left button:hover {
+  cursor: pointer;
+  background-color: #233569;
+}
+
+#jumbotron .jumbo.left span {
+  color: #bdb5af;
+  margin: 0px 10px;
+  font-size: 13px;
+}
+
+#jumbotron .jumbo.left a {
+  display: block;
+}
+
+#jumbotron .jumbo.right img {
+  width: 100%;
+}
+
+#jumbotron .jumbo.left > *:not(button) {
+  margin-bottom: 35px;
+}
+

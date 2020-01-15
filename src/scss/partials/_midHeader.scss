@@ -1,0 +1,42 @@
+#mid-header {
+    border-bottom: 1px solid $first-font-color;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    .left {
+        float: left;
+        width: 60%;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .right {
+        float: right;
+        width: 40%;
+
+        #menu {
+            float: left;
+            font-size: $font-size-head;
+            color: $first-font-color;
+            margin-left: 40px;
+
+            a {
+                margin-right: $margin-right-head;
+                font-weight: bold;
+            }
+
+            .button {
+                font-weight: bold;
+            }
+
+            .button:hover {
+                color: white;
+                background-color: $second-font-color;
+                cursor: pointer;
+            }
+
+        }
+    }
+}

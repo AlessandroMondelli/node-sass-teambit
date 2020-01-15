@@ -1,0 +1,48 @@
+#jumbotron {
+    padding-top: 130px;
+
+    .jumbo.left, .jumbo.right {
+        float: left;
+        width: 50%;
+        color: $first-font-color;
+    }
+
+    .jumbo.left {
+        p {
+            font-size: 22px;
+            max-width: 80%;
+            word-spacing: 3px;
+        }
+
+        button {
+            background-color: $second-font-color;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: $button-hover-background;
+        }
+
+        span {
+            color: #bdb5af;
+            margin: 0px 10px;
+            font-size: 13px;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+    .jumbo.right {
+        img {
+            width: 100%;
+        }
+    }
+
+    .jumbo.left > *:not(button) {
+        margin-bottom: $jumbo-margin-bottom;
+    }
+}

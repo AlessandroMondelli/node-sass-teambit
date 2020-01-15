@@ -1,0 +1,35 @@
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid $second-font-color;
+    color: $second-font-color;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: $second-font-color
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
