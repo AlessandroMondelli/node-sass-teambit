@@ -55,3 +55,18 @@ h2 {
     letter-spacing: 2px;
     font-size: 26px;
 }
+
+#help {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $second-font-color;
+    border-radius: 35px;
+    padding: 15px;
+    cursor: pointer;
+
+    img {
+        height: 40px;
+        display: inline-block;
+    }
+}

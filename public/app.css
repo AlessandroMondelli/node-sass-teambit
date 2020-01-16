@@ -68,6 +68,21 @@ h2 {
   font-size: 26px;
 }
 
+#help {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #30488F;
+  border-radius: 35px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#help img {
+  height: 40px;
+  display: inline-block;
+}
+
 #upper-header {
   height: 40px;
   background-color: #FFE7D2;
