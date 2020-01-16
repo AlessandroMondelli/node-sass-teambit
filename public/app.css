@@ -21,6 +21,11 @@
   margin: 0 auto;
 }
 
+.large-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .button {
   background-color: white;
   border: 1px solid #30488F;
@@ -46,6 +51,11 @@ h1 {
   font-size: 50px;
   letter-spacing: 2px;
   line-height: 70px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 26px;
 }
 
 #upper-header {
@@ -109,7 +119,7 @@ h1 {
 
 #jumbotron {
   padding-top: 130px;
-  padding-bottom: 80px;
+  padding-bottom: 75px;
 }
 
 #jumbotron .jumbo.left,
@@ -156,15 +166,14 @@ h1 {
 
 #how-works {
   background-color: #FFE7D2;
-  padding: 80px;
+  padding: 75px;
   text-align: center;
   color: #58402c;
 }
 
 #how-works h2 {
-  max-width: 75%;
+  max-width: 80%;
   margin: auto;
-  letter-spacing: 2px;
 }
 
 #how-works .cards {
@@ -203,5 +212,48 @@ h1 {
 
 #how-works #down-how h2 {
   margin-top: 70px;
+}
+
+#more-info {
+  padding: 75px 0;
+  color: #58402c;
+}
+
+#more-info .info {
+  float: left;
+  width: 50%;
+}
+
+#more-info .img-info {
+  width: 50%;
+}
+
+#more-info .img-info img {
+  width: 100%;
+}
+
+#more-info .text-info {
+  max-width: 27%;
+  margin: auto;
+  line-height: 35px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+#more-info .text-info p {
+  margin: 15px 0;
+}
+
+#more-info .text-info a {
+  color: #30488F;
+}
+
+#more-info .text-info a:hover {
+  color: #263972;
+}
+
+#more-info .text-info img {
+  width: 70%;
+  margin: 70px;
 }
 

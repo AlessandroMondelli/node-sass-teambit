@@ -5,13 +5,15 @@
 }
 
 .container {
-    width: 60%;
-    margin: 0 auto;
+    @include containerSize(60%);
 }
 
 .little-container {
-    width: 50%;
-    margin: 0 auto;
+    @include containerSize(50%);
+}
+
+.large-container {
+    @include containerSize(80%);
 }
 
 .button {
@@ -37,4 +39,9 @@ h1 {
     font-size: 50px;
     letter-spacing: 2px;
     line-height: 70px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 26px;
 }

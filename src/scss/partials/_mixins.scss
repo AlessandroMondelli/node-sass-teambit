@@ -1,0 +1,9 @@
+@mixin containerSize($width) {
+    width: $width;
+    margin: 0 auto;
+}
+
+@mixin maxWidthMarginAuto($maxWidth) {
+    max-width: $maxWidth;
+    margin: auto;
+}

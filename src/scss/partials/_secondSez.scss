@@ -1,0 +1,41 @@
+#more-info {
+    padding: $common-padding 0;
+    color: $first-font-color;
+
+    .info {
+        float: left;
+        width: 50%;
+    }
+
+    .img-info {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .text-info {
+        @include maxWidthMarginAuto(27%);
+        line-height: 35px;
+        font-size: 22px;
+        margin-left: 15px;
+
+        p {
+            margin: 15px 0;
+        }
+
+        a {
+            color: $second-font-color;
+        }
+
+        a:hover {
+            color: #263972;
+        }
+
+        img {
+            width: 70%;
+            margin: $common-margin;
+        }
+    }
+}

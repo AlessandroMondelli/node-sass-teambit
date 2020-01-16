@@ -5,9 +5,7 @@
     color: $first-font-color;
 
     h2 {
-        max-width: 75%;
-        margin: auto;
-        letter-spacing: 2px;
+        @include maxWidthMarginAuto(80%);
     }
 
     .cards {
@@ -24,8 +22,7 @@
 
             p {
                 font-size: 18px;
-                max-width: 85%;
-                margin: auto;
+                @include maxWidthMarginAuto(85%);
                 line-height: 25px;
             }
         }
