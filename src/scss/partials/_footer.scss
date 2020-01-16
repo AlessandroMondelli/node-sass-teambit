@@ -1,0 +1,62 @@
+footer {
+    @include paddingAndColor($common-padding,$first-font-color);
+
+    .footer {
+        float: left;
+    }
+
+    .footer.left {
+        width: 35%;
+
+        img {
+            display: inline-block;
+            width: 14%;
+            vertical-align: super;
+            margin-right: 10px;
+        }
+
+        p {
+            display: inline-block;
+            @include maxWidthMarginAuto(70%);
+            word-spacing: 3px;
+            font-weight: bold;
+
+            span {
+                color: $second-font-color;
+            }
+
+            span:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer.right {
+        width: 65%;
+
+        .list-el {
+            float: left;
+            width: 20%;
+
+            ul {
+                list-style-type: none;
+                line-height: 35px;
+
+                li {
+                    font-size: 14px;
+                }
+
+                li:first-child {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                li:not(:first-child):hover {
+                    color: $second-font-color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

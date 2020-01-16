@@ -1,5 +1,5 @@
 #get-started {
-    @include paddingAndColor($common-padding 0,$first-font-color);
+    @include paddingAndColor($common-padding,$first-font-color);
     background-color: $first-background-color;
 
     h3 {

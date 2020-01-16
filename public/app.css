@@ -264,7 +264,7 @@ h2 {
 }
 
 #get-started {
-  padding: 75px 0 0;
+  padding: 75px 0;
   color: #58402c;
   background-color: #FFE7D2;
 }
@@ -345,5 +345,70 @@ h2 {
   display: block;
   margin-top: 15px;
   font-size: 14px;
+}
+
+footer {
+  padding: 75px 0;
+  color: #58402c;
+}
+
+footer .footer {
+  float: left;
+}
+
+footer .footer.left {
+  width: 35%;
+}
+
+footer .footer.left img {
+  display: inline-block;
+  width: 14%;
+  vertical-align: super;
+  margin-right: 10px;
+}
+
+footer .footer.left p {
+  display: inline-block;
+  max-width: 70%;
+  margin: auto;
+  word-spacing: 3px;
+  font-weight: bold;
+}
+
+footer .footer.left p span {
+  color: #30488F;
+}
+
+footer .footer.left p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer .footer.right {
+  width: 65%;
+}
+
+footer .footer.right .list-el {
+  float: left;
+  width: 20%;
+}
+
+footer .footer.right .list-el ul {
+  list-style-type: none;
+  line-height: 35px;
+}
+
+footer .footer.right .list-el ul li {
+  font-size: 14px;
+}
+
+footer .footer.right .list-el ul li:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .footer.right .list-el ul li:not(:first-child):hover {
+  color: #30488F;
+  cursor: pointer;
 }
 
