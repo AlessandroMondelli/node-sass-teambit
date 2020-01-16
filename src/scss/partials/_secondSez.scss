@@ -2,14 +2,16 @@
     padding: $common-padding 0;
     color: $first-font-color;
 
+    .info.right {
+        float: right;
+    }
+
     .info {
         float: left;
         width: 50%;
     }
 
     .img-info {
-        width: 50%;
-
         img {
             width: 100%;
         }
@@ -19,7 +21,6 @@
         @include maxWidthMarginAuto(27%);
         line-height: 35px;
         font-size: 22px;
-        margin-left: 15px;
 
         p {
             margin: 15px 0;
@@ -37,5 +38,13 @@
             width: 70%;
             margin: $common-margin;
         }
+    }
+
+    .text-info.left {
+        margin-left: $info-margin;
+    }
+
+    .text-info.right {
+        margin-right: $info-margin;
     }
 }
