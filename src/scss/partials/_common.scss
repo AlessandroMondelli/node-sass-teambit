@@ -25,6 +25,16 @@
     transition: 0.3s;
 }
 
+.butt2 {
+    background-color: $second-font-color;
+    color: white;
+}
+
+.butt2:hover {
+        cursor: pointer;
+        background-color: $button-hover-background;
+}
+
 a {
     color: inherit;
     text-decoration: none;

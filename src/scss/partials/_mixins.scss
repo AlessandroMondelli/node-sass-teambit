@@ -7,3 +7,15 @@
     max-width: $maxWidth;
     margin: auto;
 }
+
+@mixin paddingAndColor($padding,$colorBackground) {
+    padding: $padding 0;
+    color: $colorBackground;
+}
+
+@mixin textBoxSpecs() {
+    padding: $text-box-padding;
+    background-color:$text-box-background-color;
+    border: $text-box-border;
+    border-radius: $text-box-border-radius;
+}

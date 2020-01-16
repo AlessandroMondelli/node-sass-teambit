@@ -1,8 +1,7 @@
 #how-works {
+    @include paddingAndColor($common-padding,$first-font-color);
     background-color: $first-background-color;
-    padding: $common-padding;
     text-align: center;
-    color: $first-font-color;
 
     h2 {
         @include maxWidthMarginAuto(80%);

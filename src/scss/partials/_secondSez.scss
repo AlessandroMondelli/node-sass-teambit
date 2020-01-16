@@ -1,6 +1,5 @@
 #more-info {
-    padding: $common-padding 0;
-    color: $first-font-color;
+    @include paddingAndColor($common-padding 0,$first-font-color);
 
     .info.right {
         float: right;

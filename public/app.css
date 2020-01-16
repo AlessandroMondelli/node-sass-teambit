@@ -36,6 +36,16 @@
   transition: 0.3s;
 }
 
+.butt2 {
+  background-color: #30488F;
+  color: white;
+}
+
+.butt2:hover {
+  cursor: pointer;
+  background-color: #233569;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -135,17 +145,6 @@ h2 {
   word-spacing: 3px;
 }
 
-#jumbotron .jumbo.left button {
-  background-color: #30488F;
-  color: white;
-  margin-bottom: 15px;
-}
-
-#jumbotron .jumbo.left button:hover {
-  cursor: pointer;
-  background-color: #233569;
-}
-
 #jumbotron .jumbo.left span {
   color: #bdb5af;
   margin: 0px 10px;
@@ -165,10 +164,10 @@ h2 {
 }
 
 #how-works {
-  background-color: #FFE7D2;
-  padding: 75px;
-  text-align: center;
+  padding: 75px 0;
   color: #58402c;
+  background-color: #FFE7D2;
+  text-align: center;
 }
 
 #how-works h2 {
@@ -215,7 +214,7 @@ h2 {
 }
 
 #more-info {
-  padding: 75px 0;
+  padding: 75px 0 0;
   color: #58402c;
 }
 
@@ -262,5 +261,89 @@ h2 {
 
 #more-info .text-info.right {
   margin-right: 30px;
+}
+
+#get-started {
+  padding: 75px 0 0;
+  color: #58402c;
+  background-color: #FFE7D2;
+}
+
+#get-started h3 {
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+
+#get-started #text-box {
+  padding: 20px 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #bdb5af;
+  border-radius: 3px;
+  max-width: 65%;
+  margin: auto;
+  margin-top: 70px;
+  position: relative;
+}
+
+#get-started #text-box p {
+  word-spacing: 5px;
+}
+
+#get-started #text-box #founders {
+  margin-top: 20px;
+}
+
+#get-started #text-box #founders #founders-img {
+  position: relative;
+}
+
+#get-started #text-box #founders #founders-img img {
+  width: 7%;
+  margin-right: 10px;
+}
+
+#get-started #text-box #founders #founders-names {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+#get-started #text-box #founders #founders-names .blue {
+  color: #30488F;
+  font-size: 14px;
+}
+
+#get-started #text-box #founders #founders-names p {
+  font-size: 12px;
+}
+
+#get-started #text-box:after {
+  content: "";
+  background: url("https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg");
+  width: 37px;
+  height: 39px;
+  position: absolute;
+  top: -23px;
+  left: -1px;
+}
+
+#get-started .sign-up {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#get-started .sign-up span {
+  color: #bdb5af;
+  margin: 0px 10px;
+  font-size: 13px;
+}
+
+#get-started .sign-up a {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
 }
 
